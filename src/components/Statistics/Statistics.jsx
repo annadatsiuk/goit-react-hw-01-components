@@ -7,7 +7,6 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-
 export const Statistics = ({ stats, title }) => {
   return (
     <section className={css.statistics}>
