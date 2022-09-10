@@ -1,0 +1,43 @@
+.statistics {
+    margin: auto;
+    margin-top: 70px;
+    width: 585px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 5px #00000022;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Tahoma, sans-serif;
+    color: black;
+}
+
+.statlist {
+    display: flex;
+    text-align: center;
+    width: 500px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.item {
+    font-family: Tahoma, sans-serif;
+    color: white;
+    border: none;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.percentage {
+    display: block;
+    font-size: 25px;
+}
