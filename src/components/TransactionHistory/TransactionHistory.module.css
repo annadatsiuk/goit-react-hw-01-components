@@ -1,0 +1,42 @@
+.transactionHistory {
+    width: 500px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: 5px 5px 10px 5px #00000022;
+}
+
+.transactionTableRow {
+    background-color: rgb(68, 192, 192);
+}
+
+.transactionRowTitle {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+
+    width: 50px;
+    height: 40px;
+}
+
+.transactionTableBody:nth-child(even) {
+    background-color: rgb(235, 235, 235);
+
+}
+
+.transactionBodyRowData {
+    font-family: Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: gray;
+
+}
+
+.transactionBodyRowData:first-letter {
+    text-transform: uppercase;
+}
